@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>رواسي - تواصل معنا</title>
+  <link rel="stylesheet" href="c:\Users\SIGMA\Desktop\rawasi\contact\Contact.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+
+      <!-- Search -->
+      <div class="search-bar">
+        <select class="search-category">
+          <option>الكل</option>
+          <option>قطع الهواء</option>
+          <option>الإطارات</option>
+        </select>
+        <input type="text" placeholder="ابحث عن قطع غيار أو ماركة السيارة..." />
+        <button class="search-btn">🔍</button>
+      </div>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <a href="#" class="btn btn-outline">إضافة سيارة</a>
+        <a href="#" class="btn btn-primary">تسجيل الدخول</a>
+        <div class="cart-icon">
+          <span>🛒</span>
+          <span class="badge">3</span>
+        </div>
+        <div class="wishlist-icon">
+          <span>❤️</span>
+          <span class="badge">2</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Nav -->
+  <nav class="main-nav">
+    <div class="container nav-inner">
+      <button class="all-categories-btn">☰ جميع الفئات</button>
+      <ul class="nav-links">
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="about.html">عن  رواسي</a></li>
+        <li><a href="Contact.html" class="active">تواصل معنا</a></li>
+        <li><a href="#">العروض</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Contact Page -->
+  <main class="contact-page">
+    <h1 class="page-title">تواصل معنا</h1>
+
+    <div class="contact-grid">
+      <!-- Right: Form Fields -->
+      <div class="form-fields">
+        <input type="text" class="field" placeholder="الإسم" />
+        <input type="email" class="field" placeholder="البريد الإلكتروني" />
+        <div class="phone-field field">
+          <input type="tel" class="phone-input" placeholder="رقم الجوال" />
+          <div class="divider-v"></div>
+          <div class="flag-code">
+            <img src="https://flagcdn.com/w40/sa.png" alt="SA" class="flag"/>
+            <span>+966</span>
+          </div>
+        </div>
+        <!-- WhatsApp -->
+        <div class="whatsapp-btn">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+        </div>
+      </div>
+
+      <!-- Left: Message Area -->
+      <div class="message-area">
+        <textarea placeholder="المحتوي .." maxlength="100"></textarea>
+        <div class="char-count">100/100</div>
+      </div>
+    </div>
+
+    <!-- Send Button -->
+    <div class="send-row">
+      <button class="send-btn">ارسال</button>
+    </div>
+
+  </main>
+
+  <script src="contact/script.js"></script>
+</body>
+</html>
